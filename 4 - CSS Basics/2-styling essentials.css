@@ -98,4 +98,24 @@
     /* Hexadecimal  Value #000000 */
     /* You can add Alpha to Hexadecimals */
     color:#00F00000; /* Two pairs symbolizes RED BLUE and GREEN*/
+    color:#aa0000;
+    color: #00f000ff;
 } 
+#absolute-unit-px{
+    /* Default px size */
+    font-size: 16px;  
+    font-size: 30px;
+    font-size: 8px;
+    font-size: 16px; /*this is that root element*/
+}
+#relative-unit-em{
+    /* Default em Size */
+    font-size: 1em;
+    /* Since relative-unit-em class is in a child elemnt (refer to html) it will be 40px - 20*3 . If it changes to px then it will follow the parent element*/
+    font-size: 2em;
+}
+#relative-unit-rem{
+    /* Rem will be multiplied to the value of the root element fontsize, which is 16px */
+    font-size: 2rem;
+
+}
